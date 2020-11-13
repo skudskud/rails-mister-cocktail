@@ -13,6 +13,7 @@ Ingredient.create(name: "mint leaves")
 
 puts "Cleaning database..."
 Ingredient.destroy_all
+Cocktail.destroy_all
 
 puts "Creating restaurants..."
 lemon = { name: "lemon" }
